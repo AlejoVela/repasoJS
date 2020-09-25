@@ -14,5 +14,6 @@ document.getElementById("solucion").innerHTML +=
 document.getElementById("solucion").innerHTML += 
 `<p class="text-warning">Resultado de la resta ${res}</p>`;
 
-document.getElementById("solucion").innetHTML += 
+document.getElementById("solucion").innerHTML += 
 `<p class="text-info">Resultado del producto: ${produc}</p>`;
+

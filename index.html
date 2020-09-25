@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <h1 class="jumbotron">Repaso JS</h1>
+
 
     <div class="container-fluid">
+        <h1 class="jumbotron">Repaso JS</h1>
+        <div class="row pb-2">
+            <div class="col-md-6">
+                <input type="number" class="" min="1" placeholder="Primer Numero">
+            </div>
+            <div class="col-md-6">
+                <input type="number" class="" min="1" placeholder="Segundo Numero">
+            </div>
+        </div>
         <div class="row">
-            <div class="col-md-6" id="enumciado"></div>
+            <div class="col-md-6" id="enumciado">
+                <p class="text-danger text-right">Suma -------------------></p>
+                <p class="text-primary text-right">Division ----------------></p>
+                <p class="text-warning text-right">Resta ----------------></p>
+                <p class="text-info text-right">Producto ---------------></p>
+
+            </div>
             <div class="col-md-6" id="solucion"></div>
         </div>    
     </div>
